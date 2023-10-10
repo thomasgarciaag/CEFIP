@@ -44,7 +44,7 @@ rename value* v_*
 		   (scatter share_prico year if country =="ES",  c(l) msize(small) lw(thin)) ///
 		   (scatter share_prico year if country =="US",  c(l) msize(small) lw(medthick)), ///
 			graphregion(fcolor(white) lcolor(gs16)) ///
-			ytitle("Share of corporate profits") ylab(, nogrid)  ///
+			ytitle("Share of corporate profits - Thomas") ylab(, nogrid)  ///
 			legend(order (1 "BR" 2 "MX" 3 "FR" 4 "ES" 5 "US") ///
 	     	region(lcolor(black))  pos(6) col(12) size(*0.7))  ///
 	 	
